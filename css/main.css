@@ -73,8 +73,6 @@ a:focus {
 
 /*general*/
 
-
-
 /*ICHECK CSS*/
 
 .textWhite {
@@ -105,8 +103,12 @@ a:focus {
     position: absolute;
 }
 
-.displayInlineBlock{
+.displayInlineBlock {
     display: inline-block;
+}
+
+.displayInline {
+    display: inline;
 }
 
 .lightFont {
@@ -149,8 +151,12 @@ a:focus {
     width: 100%;
 }
 
-.borderBottom{
+.borderBottom {
     border-bottom: 1px solid #cccccc;
+}
+
+.icheckbox_flat-green, .icheck_flat-green {
+    margin-right: 20px;
 }
 
 /*--------------------------------DESKTOP------------------------------------------------------------------------------------------------------*/
@@ -174,17 +180,27 @@ a:focus {
     min-height: 500px;
 }
 
-.workerBlock{
-    margin-bottom: 30px;
+.workerBlock {
+    margin-bottom: 40px;
 }
 
-.slick-slide img{
+.slick-slide img {
     display: inline-block;
 }
 
 .workerBlock img {
     width: 70%;
     border: 1px solid #878584;
+}
+
+.timeBox{width: 30%; float: left;}
+
+.checkKont {
+    float: left;
+}
+
+.checkKont label {
+    margin-right: 5px;
 }
 
 .workerBlock a {
