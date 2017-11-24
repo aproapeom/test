@@ -25,32 +25,63 @@
 </head>
 
 <body>
-
+<div class="preloaderContainer" id="preloader"></div>
 <div class="container-fluid" id="pontaj">
     <!--HEADER-->
     <div class="row clearfix">
-        <div class="headerBlock textWhite col-md-12">
-            <h1 class="px-5 py-5">Protopopescu Sebastian Papadopol</h1>
+        <div class="headerBlock textWhite col-md-8">
+            <h1 class="px-5 py-5">Nume Prenume</h1>
+        </div>
+        <div class="headerBlock textWhite col-md-4 text-right">
+            <a href="index.html" class="btn btn-default btn-lg my-5 mr-5">Inapoi</a>
         </div>
     </div>
     <!--CONTENT-->
     <div class="row clearfix">
         <div class="contentBlock col-md-12">
             <div class="clockingBlock px-5 py-5 borderBottom clearfix">
-                <div class="clockingBlockTitle">
+                <div class="clockingBlockTitle mb-5">
                     <h2><i class="fa fa-calendar mr-3" aria-hidden="true"></i> Timp</h2>
                 </div>
-                <div class="clockingBlockInner timeBox mt-2" id="daysCheck">
+                <div class="clockingBlockInner timeBox mt-2 clearfix" id="daysCheck">
                     <h3 class="py-3">Zi</h3>
                 </div>
-                <div class="clockingBlockInner timeBox mt-2" id="monthCheck">
+                <div class="clockingBlockInner timeBox mt-2 clearfix" id="monthCheck">
                     <h3 class="py-3">Luna</h3>
                 </div>
-                <div class="clockingBlockInner timeBox mt-2" id="yearCheck">
+                <div class="clockingBlockInner timeBox mt-2 clearfix" id="yearCheck">
                     <h3 class="py-3">An</h3>
                 </div>
             </div>
-
+            <div class="clockingBlock px-5 py-5 borderBottom clearfix">
+                <div class="clockingBlockTitle mb-5">
+                    <h2><i class="fa fa-clock-o" aria-hidden="true"></i> Activitati/ore</h2>
+                </div>
+                <div class="clockingBlockInner timeBox2 mt-2 clearfix" id="deplasareCheck">
+                    <h3 class="py-3">Deplasare</h3>
+                </div>
+                <div class="clockingBlockInner timeBox2 mt-2 clearfix" id="permiseCheck">
+                    <h3 class="py-3">Obtinere permise</h3>
+                </div>
+                <div class="clockingBlockInner timeBox2 mt-2 clearfix" id="pregatireCheck">
+                    <h3 class="py-3">Pregatire lucrare</h3>
+                </div>
+                <div class="clockingBlockInner timeBox2 mt-2 clearfix" id="executieCheck">
+                    <h3 class="py-3">Executie lucrare</h3>
+                </div>
+                <div class="clockingBlockInner timeBox2 mt-2 clearfix" id="inchidereCheck">
+                    <h3 class="py-3">Inchidere lucrare</h3>
+                </div>
+                <div class="clockingBlockInner timeBox2 mt-2 clearfix" id="alteleCheck">
+                    <h3 class="py-3">Alte activitati</h3>
+                </div>
+            </div>
+            <div class="clockingBlock px-5 py-5 clearfix">
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-success btn-lg my-5 mr-5">Trimite</a>
+                    <a href="#" class="btn btn-info btn-lg my-5 mr-5">Reseteaza</a>
+                </div>
+            </div>
         </div>
     </div>
     <!--FOOTER-->
